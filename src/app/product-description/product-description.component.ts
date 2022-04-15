@@ -10,7 +10,7 @@ import { Album } from '../album';
 })
 export class ProductDescriptionComponent implements OnInit {
 
-  public albumInfo: Album;
+  public albumInfo?: Album;
 
   constructor(private _productService: ProductService) { }
 
